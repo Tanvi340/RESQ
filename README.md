@@ -363,9 +363,12 @@ The following checklist should be updated as features are actually completed and
 * **Domain:** Disaster Management, Social Impact, Resource Coordination
 * **Project Type:** Hackathon Prototype
 * **Primary Objective:** Improve coordination of physical resource donations during disasters.
-* **Repository:** Add your GitHub repository link here.
-* **Team Members:** Add your team members here.
-* **Institution:** Add your college name here.
+* **Repository:** https://github.com/Tanvi340/RESQ
+* **Team Members:** 1] Tanvi Joshi
+                    2] Swaranjali Shitole
+                    3] Arya Gondhali
+                    4] Pranjal Divekar
+
 
 ---
 
