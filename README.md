@@ -67,6 +67,55 @@ Our goal is to improve coordination between donors and relief organizations thro
 * Update inventory after receipt is confirmed.
 * Allow donors to track the status of their donations.
 
+### Integrated Resource Tracking Dashboard
+
+RESQ includes an integrated Resource Tracking Dashboard within the existing User Portal and Admin Portal to provide visibility into the movement of donated resources, from hub receipt to final distribution to disaster-affected beneficiaries.
+
+#### User Portal — Track My Resources
+
+* Allow donors to view and track their own donations.
+* Display donation ID, resource type, quantity, selected hub, and current status.
+* Show a timestamped status timeline for each donation.
+* Display the planned delivery route and the latest recorded delivery status.
+* Show distribution progress, including quantities distributed and remaining, when these records are available.
+* Provide read-only tracking access so donors can monitor progress without modifying administrative records.
+
+#### Admin Portal — Tracking Dashboard
+
+* Integrate the Tracking Dashboard into the existing Admin Portal rather than creating a separate, disconnected system.
+* Display active deliveries, dispatched resources, in-transit deliveries, arrivals, and completed distributions.
+* Allow authorized administrators to update delivery statuses and record timestamps.
+* Record quantities dispatched, received at the destination, distributed to beneficiaries, and remaining.
+* Record delivery delays, transportation issues, and other relevant remarks.
+* Provide an overview of resource movement from relief hubs to disaster-affected areas.
+
+#### Resource Tracking Workflow
+
+The tracking workflow follows these stages:
+
+1. Donation approved
+2. Resources received at the hub
+3. Resources prepared for dispatch
+4. Resources dispatched from the hub
+5. Resources in transit
+6. Resources arrive at the affected area
+7. Distribution to beneficiaries in progress
+8. Distribution completed
+
+Each status update should be timestamped and reflected in both the User Portal and Admin Portal according to the user's permissions.
+
+#### Delivery and Distribution Tracking
+
+* Track the journey of resources from the relief hub to the affected area.
+* Maintain delivery status history for accountability.
+* Record the quantities dispatched, received, distributed, and remaining.
+* Treat arrival at the affected area and completion of distribution as separate events.
+* Display a planned route when map integration is available.
+* Support live GPS tracking only when a genuine GPS or transporter data source is connected. Otherwise, display the latest recorded status and clearly distinguish it from live location tracking.
+
+**Objective:** Improve transparency, accountability, and traceability by helping donors understand where their donations are in the process and helping administrators monitor delivery and final distribution.
+
+
 ---
 
 ## 4. How RESQ Works
